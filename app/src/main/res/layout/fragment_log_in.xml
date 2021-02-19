@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LogInFragment"
+    android:background="@color/bg_color"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="43dp"
+        android:layout_height="49dp"
+        android:src="@drawable/logo"
+        android:layout_marginTop="101dp"
+        android:layout_marginLeft="35dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:layout_marginTop="181dp"
+        android:layout_marginLeft="35dp"
+        android:text="Вход"
+        android:textColor="@color/white"
+        android:fontFamily="@font/medium"/>
+    
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="35dp"
+        android:hint="Email"
+        android:layout_marginTop="325dp"
+        android:textColorHint="@color/gray"
+        android:id="@+id/et_email"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="35dp"
+        android:hint="Пароль"
+        android:layout_marginTop="397dp"
+        android:textColorHint="@color/gray"
+        android:id="@+id/et_password"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="321dp"
+        android:layout_height="61dp"
+        android:text="Войти"
+        android:textColor="@color/white"
+        android:fontFamily="@font/bold"
+        android:textSize="25sp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/btn_style"
+        android:layout_marginTop="492dp"
+        android:id="@+id/btn_enter_li"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/link_reg_li"
+        android:text="Еще нет аккаунта? Зарегистрируйтесь"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:fontFamily="@font/regular"
+        android:layout_marginTop="576dp"/>
+
+    
+
+</FrameLayout>

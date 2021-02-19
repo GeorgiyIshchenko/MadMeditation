@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StartFragment"
+    android:orientation="vertical"
+    android:background="@drawable/background">
+
+    <ImageView
+        android:layout_width="195dp"
+        android:layout_height="220dp"
+        android:src="@drawable/logo"
+        android:layout_gravity="center"
+        android:layout_marginTop="145dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ПРИВЕТ"
+        android:textSize="34sp"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:fontFamily="@font/bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Наслаждайся отборочными.\n Будь внимателен.\n Делай хорошо."
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:fontFamily="@font/regular"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="321dp"
+        android:layout_height="61dp"
+        android:text="Войти"
+        android:textColor="@color/white"
+        android:fontFamily="@font/bold"
+        android:textSize="25sp"
+        android:layout_gravity="center"
+        android:background="@drawable/btn_style"
+        android:layout_marginTop="70dp"
+        android:id="@+id/btn_enter_sa"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/link_reg_sa"
+        android:text="Еще нет аккаунта? Зарегистрируйтесь"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:fontFamily="@font/regular"
+        android:layout_marginTop="18dp"/>
+
+</LinearLayout>
